@@ -1,4 +1,4 @@
-## Módulo: Programación con JavaScript 2
+## Módulo: 
 
 ### Objetivo
 
