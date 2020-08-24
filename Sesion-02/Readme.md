@@ -138,7 +138,7 @@ El principal problema de Leave One Out Cross Validation (LOOCV) es que si tienes
 
 $10,000\ muestras \times 10\ segundos = 100,000s = 27.777\ hrs$
 
-![Tu dale, aqui te espero](imgassets/Waiting.jpg)
+![Tu dale, aqui te espero](imgassets/waiting.jpg)
 
 
 ## Reto 03:
