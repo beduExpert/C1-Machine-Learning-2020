@@ -70,14 +70,14 @@ Aprender consiste en *Reconocer los errores y corregirlos para tratar de no come
 
 El principal indicador de que estás aprendiendo (o de que tu sistema está aprendiendo) es que **conforme el tiempo pasa, la probabilidad de cometer un error disminuye drásticamente.**
 
-![La práctica hace al maestro!](imgassets/practiceMakesPerfect.jpg)
+![La práctica hace al maestro!](imgassets/PracticeMakesPerfect.jpg)
 
 Existen varias maneras de aprender, pero hablar de todas ellas sería desviar nuestra conversación hacia la rama de la psicología del aprendizaje. La que nos interesa por ahora va mas encaminada hacia los procesos condicionantes de Pavlov: 
 
 - Un refuerzo positivo: Cada vez que el sistema hace lo que yo espero, le doy una recompensa.
 - Un refuerzo negativo: Cada vez que el sistema hace algo que no esperaba, le doy un castigo.
 
-![El perrito de pavlov](imgassets/pavlov.gif)
+![El perrito de pavlov](imgassets/Pavlov.gif)
 
 Para entender como funciona este condicionamiento de Pavlov en sistemas, necesitaremos ver un poco acerca de como funcionan las derivadas.
 
