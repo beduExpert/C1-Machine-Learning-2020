@@ -1,4 +1,4 @@
-# Sesión 02: Separación, validación y evaluación para algoritmos de ML.
+# Sesión 02: Separación, validación y evaluación para algoritmos de ML
 __*Notas del Dr. Antonio Arista Jalife*__
 
 ¡Bienvenido a la segunda sesión de Machine Learning! En esta sesión nos enfocaremos enteramente en crear herramientas que nos serán útiles no solamente en lo que resta del curso, sino en cualquier momento que deseemos implementar Machine Learning.
@@ -13,15 +13,15 @@ Los algoritmos de Machine Learning van a aprender invariantemente de los datos q
 
 En esta gráfica puedes notar que los puntos en verde obscuro son datos de prueba. Esto quiere decir que el algoritmo de ML es capaz de procesar aún con datos que jamás ha tratado. Esa es la verdadera inteligencia que se espera de ML
 
-> _Supongamos que te memorizas un libro entero de matemáticas, sin embargo no entendiste nada, solo lo memorizaste. ¿De que sirve si el profesor cambia el problema con otros datos? Lo mismo pasa con los algoritmos de ML: La inteligencia artificial asume que se topará con datos jamás vistos antes._
+> _Supongamos que te memorizas un libro entero de matemáticas, sin embargo no entendiste nada, solo lo memorizaste. ¿De qué sirve si el profesor cambia el problema con otros datos? Lo mismo pasa con los algoritmos de ML: La inteligencia artificial asume que se topará con datos jamás vistos antes._
 
-¿Que sucede si tu algoritmo de Machine Learning solamente ha aprendido que debe reconocer autos de color rojo como automóviles? Cuando vea un automóvil de color negro o azul, ¿será capaz de reconocerlo como un automóvil? Lo mas probable es que no. 
+¿Qué sucede si tu algoritmo de Machine Learning solamente ha aprendido que debe reconocer autos de color rojo como automóviles? Cuando vea un automóvil de color negro o azul, ¿será capaz de reconocerlo como un automóvil? Lo mas probable es que no. 
 
 Por ende, si tu algoritmo de ML siempre ha aprendido con datos de un tipo, es difícil que sea capaz de generalizar con otros datos de otro conjunto. Para evitar este problema, tu algoritmo debe de trabajar con una separación de datos. 
 
 Un ejemplo de la vida real: Los automóviles con piloto automático han sido extensamente entrenados para reconocer personas, pero casi todas son personas con tez clara. Las personas con tez obscura corren el riesgo potencial de que el sistema no las reconozca. Esto -evidentemente- es un problema muy grave. 
 
-![Automoviles tesla](imgassets/TeslaCars.png)
+![Automóviles tesla](imgassets/TeslaCars.png)
 
 > _ Si ordenas tu habitación y encuentras algo que nunca has visto antes, es probable que le tengas mucho miedo y que no quieras ni tocarlo. ¡Lo mismo pasa cuando un algoritmo no es capaz de clasificar algo!_
 
@@ -53,7 +53,7 @@ Este es el peor escenario posible. Una partición muy pequeña hará que no te d
 
 >Si implementas un algoritmo así, es **MUY** probable que falle a la larga. Esto es catastrófico para cualquier negocio o inclusive peligroso para aplicaciones que requieren precisión casi absoluta (como sistemas médicos). Advertido estás.
 
-### ¿Cual es una buena partición entonces?
+### ¿Cuál es una buena partición entonces?
 
 ![Particiones estándar](imgassets/Thinking.jpg)
 
@@ -146,7 +146,7 @@ $10,000\ muestras \times 10\ segundos = 100,000s = 27.777\ hrs$
 
 ## Matriz de confusión: Que tan listo es tu algoritmo.
 
-¿Como saber si tu algoritmo de ML es realmente inteligente? Requieres siempre mediciones objetivas y numéricas que te digan que tan bueno es tu algoritmo realmente para lo que estás haciendo. Un buen método para saber que tan bueno es, es por medio de la matriz de confusión. 
+¿Cómo saber si tu algoritmo de ML es realmente inteligente? Requieres siempre mediciones objetivas y numéricas que te digan que tan bueno es tu algoritmo realmente para lo que estás haciendo. Un buen método para saber que tan bueno es, es por medio de la matriz de confusión. 
 
 ![Es realmente inteligente tu algoritmo de ML?](imgassets/Homer.gif)
 
