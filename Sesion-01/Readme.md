@@ -12,7 +12,7 @@ Puede que para tu proyecto necesites una -o varias- de las herramientas que te m
 
 ¡Bienvenido nuevamente, y comencemos!
 
-## Exactamente... ¿Que es eso de Machine Learning? 
+## Exactamente... ¿Qué es eso de Machine Learning? 
 
 Hay muchas definiciones para ese elusivo concepto, desde las mas románticas como *"Darle a un pedazo de silicio la capacidad de pensar"* hasta otras mas puntuales como *"Crear programas que aprenden y se adaptan al entorno"*
 
@@ -41,7 +41,7 @@ Sin embargo existen algunos casos en donde:
 ![Whoopsie! Buena suerte programando eso!](imgassets/TraditionalProgrammingLimits.png)
 _Whoopsie! Buena suerte programando eso!_
 
-Y bueno, ¿como rompemos esos límites? Necesitamos generar un algoritmo que tenga de entrada: 
+Y bueno, ¿cómo rompemos esos límites? Necesitamos generar un algoritmo que tenga de entrada: 
 - Entradas del sistema
 - Salidas esperadas
 
@@ -52,16 +52,16 @@ Y nos dé como respuesta: **Un programa que haga el vínculo entre las entradas 
 
 ### Reto 01:
 >Piensa en un problema que hayas intentado programar y no lo hayas logrado. 
-¿Que fue lo que te falló?. 
+¿Qué fue lo que te falló?. 
 Si hubieras tenido un sistema que aprendiera solo, ¿Habrías podido solucionarlo?
-¡Por favor, compartenos tu experiencia!
+¡Por favor, compártenos tu experiencia!
 
-## ¿Como es que una computadora puede aprender?
+## ¿Cómo es que una computadora puede aprender?
 
 Para poder responder esta pregunta, primero comencemos con un reto muy simple.
 
 ### Reto 02:
-> Define: ¿Que es aprender? ¿Cómo puedes definir que aprendes? ![Hmm...](imgassets/Thinking.jpg)
+> Define: ¿Qué es aprender? ¿Cómo puedes definir qué aprendes? ![Hmm...](imgassets/Thinking.jpg)
 
  *(Spoilers en las siguientes líneas!)*
 
@@ -72,18 +72,18 @@ El principal indicador de que estás aprendiendo (o de que tu sistema está apre
 
 ![La práctica hace al maestro!](imgassets/PracticeMakesPerfect.jpg)
 
-Existen varias maneras de aprender, pero hablar de todas ellas sería desviar nuestra conversación hacia la rama de la psicología del aprendizaje. La que nos interesa por ahora va mas encaminada hacia los procesos condicionantes de Pavlov: 
+Existen varias maneras de aprender, pero hablar de todas ellas sería desviar nuestra conversación hacia la rama de la psicología del aprendizaje. La que nos interesa por ahora va más encaminada hacia los procesos condicionantes de Pavlov: 
 
 - Un refuerzo positivo: Cada vez que el sistema hace lo que yo espero, le doy una recompensa.
 - Un refuerzo negativo: Cada vez que el sistema hace algo que no esperaba, le doy un castigo.
 
 ![El perrito de pavlov](imgassets/Pavlov.gif)
 
-Para entender como funciona este condicionamiento de Pavlov en sistemas, necesitaremos ver un poco acerca de como funcionan las derivadas.
+Para entender cómo funciona este condicionamiento de Pavlov en sistemas, necesitaremos ver un poco acerca de cómo funcionan las derivadas.
 
 ## Derivadas (eww...)
 
-Si si, lo sé, a nadie le entusiasma trabajar con derivadas, sobre todo si las llegaste a ver en la Preparatoria, y (como yo) ya ha pasado un tiempo largo de eso, así que trataré de mantener las ecuaciones matemáticas al mínimo (creeme, a mi tampoco me apasiona el explicar matemáticas complicadas...)
+Sí sí, lo sé, a nadie le entusiasma trabajar con derivadas, sobre todo si las llegaste a ver en la Preparatoria, y (como yo) ya ha pasado un tiempo largo de eso, así que trataré de mantener las ecuaciones matemáticas al mínimo (creeme, a mi tampoco me apasiona el explicar matemáticas complicadas...)
 
 Una derivada tiene un montón de definiciones, eso lo sabemos bien desde la preparatoria, pero de entre todas las definiciones, la que mas nos interesa es la que reza: *"Una derivada es una razón de cambio"*
 
@@ -94,11 +94,11 @@ Por ejemplo, observa la siguiente imagen:
 
 Lo que nos interesa mas que nada de esa imagen es ese triangulo. Entre mas grande es ese triángulo, mas distancia hay entre dos puntos (el punto que toca la curva, y el donde acaba el triangulo). Si notas, el triángulo se vuelve un solo punto cuando se encuentra en el lugar mas bajo. Eso quiere decir que la derivada es 0.
 
-Si si, muy bonito, y bueno, ¿eso que tiene que ver con Machine Learning? 
+Si si, muy bonito, y bueno, ¿eso qué tiene que ver con Machine Learning? 
 
 Una derivada es la medida de que tantos errores comete un sistema. A mayor derivada, mas errores comete, y el objetivo de nuestros sistemas de Machine Learning es **reducir esa derivada a lo mínimo posible**
 
-Veamos algunos ejemplos interesantes de como las derivadas hacen cosas con Machine Learning. 
+Veamos algunos ejemplos interesantes de cómo las derivadas hacen cosas con Machine Learning. 
 
 ### Ejemplo 01: Alien Isolation.
 
@@ -106,7 +106,7 @@ Veamos algunos ejemplos interesantes de como las derivadas hacen cosas con Machi
 
 El juego de *Alien: Isolation* trata de escapar del clásico Alien de las películas. La inteligencia artificial del clásico monstruo espacial funciona con dos cerebros: Uno de los cerebros tiene el control del cuerpo del Alien, y otro cerebro tiene conocimiento de donde te encuentras en todo momento. Sin embargo, el cerebro que controla el movimiento no tiene idea de donde estás. 
 
-¿Como le hace entonces el Alien para acecharte? Simple: El cerebro que sabe donde estás, le manda señales al cerebro que se mueve, en una especie de juego de *frio... frio... tibio... caliente... caliente...*
+¿Cómo le hace entonces el Alien para acecharte? Simple: El cerebro que sabe donde estás, le manda señales al cerebro que se mueve, en una especie de juego de *frio... frio... tibio... caliente... caliente...*
 
 Cada vez que el cerebro del Alien recibe esas señales, lo que intenta compulsivamente es reducir la distancia entre tu y él, y ese indicador de frio-caliente es justamente *una derivada*.
 
@@ -138,9 +138,9 @@ Para ello debe haber una manera eficaz de comparar dos datos. Una manera de comp
 
 Antes de que nos asustemos por tantas ecuaciones, tomemos en cuenta lo siguiente: La mejor manera de comparar dos datos es por medio de distancias: La distancia nos dice que tanto (numéricamente) dos datos se parecen.
 
-- Los datos son iguales? Las distancias son cero. 
+- ¿Los datos son iguales? Las distancias son cero. 
 
-- Los datos son diferentes? Las distancias son mayores a 0. 
+- ¿Los datos son diferentes? Las distancias son mayores a 0. 
 
 Como tip, si puedes medir un dato variable contra un valor fijo de referencia, siempre puedes ajustar ese dato para acercarte al "ideal". 
 
@@ -212,7 +212,7 @@ Machine Learning brilla cuando tiene que generar tecnología que mapee finanzas 
 
 ### Astrofísica y ciencias espaciales.
 
-Dado que las ciencias espacilaes están teniendo mas datos cada vez, necesitan cada vez mas de ML para darles sentido y entender los datos.
+Dado que las ciencias espaciales están teniendo mas datos cada vez, necesitan cada vez mas de ML para darles sentido y entender los datos.
 
 ![Astrofísica](imgassets/Astrophysics.png)
 
@@ -223,7 +223,7 @@ Incluso los sistemas y servicios de salud se pueden ver beneficiados por Machine
 ![Salud pública y prevención](imgassets/Health.png)
 
 ## Reto 04:
-> ¿Que industria podría verse beneficada por Machine Learning? ¿Conoces algún caso en el cual se pueda ver beneficiado? **PROTIP:** Un programador debe de saber de todo. Si entiendes un área del conocimiento, puedes generar tecnología de ello. ![Science!](imgassets/Science.jpg)
+> ¿Qué industria podría verse beneficada por Machine Learning? ¿Conoces algún caso en el cual se pueda ver beneficiado? **PROTIP:** Un programador debe de saber de todo. Si entiendes un área del conocimiento, puedes generar tecnología de ello. ![Science!](imgassets/Science.jpg)
 
 ## Descriptores para Machine Learning.
 
@@ -237,7 +237,7 @@ Antes de comenzar a hablar de descriptores, necesitaremos que armemos parejas pa
 - Si lo consigue, cambia de turno 
 ![Lo veo y no lo creo](imgassets/Daredevil.jpg)
 
-###  Entonces ¿Que es un descriptor?
+###  Entonces ¿Qué es un descriptor?
 
 Después de este reto, vamos a ver que es un descriptor: Una máquina es muy buena para entender cualquier cosa que tenga que ver con números. Y un descriptor sirve para asociarle números a propiedades del mundo real. 
 
@@ -250,7 +250,7 @@ Veamos como funcionan de manera práctica con el siguiente ejemplo: Imaginemos q
 
 ![Lleve sus frutas](imgassets/Fruits.png)
 
-Y bien, ¿que es mejor? ¿Un descriptor o un algoritmo? Sorpresivamente es mejor tener un gran descriptor que un gran algoritmo.
+Y bien, ¿qué es mejor? ¿Un descriptor o un algoritmo? Sorpresivamente es mejor tener un gran descriptor que un gran algoritmo.
 - Un gran descriptor puede darte un excelente resultado, aún con un algoritmo mediocre.
 - Un descriptor malo te da mucha ambiguedad y malos resultados. No importando que tan inteligente sea tu algoritmo. 
 
