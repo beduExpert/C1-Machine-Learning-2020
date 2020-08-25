@@ -7,7 +7,7 @@
 
  - [Sesión 1: Introducción a Machine Learning ](./Sesion-01)
 
- - [Sesión 2: ](./Sesion-02)
+ - [Sesión 2: Separación, validación y evaluación para algoritmos de ML ](./Sesion-02)
 
  - [Sesión 3: ](./Sesion-03)
 
