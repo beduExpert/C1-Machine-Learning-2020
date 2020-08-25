@@ -5,7 +5,7 @@
 
 ### Organización Del Módulo
 
- - [Sesión 1: ](./Sesion-01)
+ - [Sesión 1: Introducción a Machine Learning ](./Sesion-01)
 
  - [Sesión 2: ](./Sesion-02)
 
