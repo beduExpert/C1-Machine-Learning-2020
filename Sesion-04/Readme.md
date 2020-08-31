@@ -1,5 +1,4 @@
-# Sesión 04: Regresión para predicciones. 
-_**Dr. Antonio Arista Jalife**_
+# Sesión 04: Problemas de regresión 
 
 ¡Bienvenidos a la Sesión 04! En esa sesión platicaremos acerca de las predicciones por medio de regresión y lo abordaremos como un entrenamiento supervisado. Para ello, lo primero será definir que es la regresión. 
 
