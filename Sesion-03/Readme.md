@@ -1,4 +1,6 @@
-# Sesión 03: Algoritmos no supervisados.
+# Sesión 03: Algoritmos no supervisados  
+
+#### Objetivo: Construir algoritmos que permitan hacer separación en conjuntos sin necesidad de suministrar datos de categorización.  
 
 ¡Bienvenido a la tercera sesión de Machine Learning! En esta sesión aprenderemos a generar algoritmos no supervisados y como nos pueden ayudar a resolver problemas específicos. 
 
