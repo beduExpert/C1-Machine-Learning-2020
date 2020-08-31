@@ -1,7 +1,6 @@
 # Sesión 02: Separación, validación y evaluación para algoritmos de ML  
 
-# Objetivo:    
-Utilizar herramientas para identificar áreas de oportunidad para diseñar soluciones de servicios.  
+### Objetivo: Utilizar herramientas para identificar áreas de oportunidad para diseñar soluciones de servicios.    
 
 ¡Bienvenido a la segunda sesión de Machine Learning! En esta sesión nos enfocaremos enteramente en crear herramientas que nos serán útiles no solamente en lo que resta del curso, sino en cualquier momento que deseemos implementar Machine Learning.
 
