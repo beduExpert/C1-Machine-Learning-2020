@@ -1,6 +1,6 @@
 # Sesión 01: Introducción a Machine Learning
 
-### Objetivo: Identificar los conceptos básicos relacionados con el diseño de servicios y el impacto que ha tenido en varias industrias.    
+#### Objetivo: Construir las bases de Machine Learning (estructura, funcionamiento, algoritmos en Python 3).    
 
 ¡Bienvenido a tu curso de Machine Learning (ML) con Python! Dado que esta es tu primera sesión, quisiera comentarte como será el método de trabajo a partir de hoy:
 
