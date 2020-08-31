@@ -1,0 +1,23 @@
+Nombre,cantidad de accion,cantidad de romance,tipo
+Robocop,0.9,0.0,accion
+Terminator,0.88,0.10,accion
+Dia de la independencia,0.9,0.11,accion
+Mision Imposible,0.9,0.11,accion
+Bourne,0.9,0.2,accion
+Rambo,1.0,0.0,accion
+Rocky,0.95,0.4,accion
+Leopold y Kate,0.1,1.0,romance
+Diario de una pasión,0.1,0.9,romance
+Operación Dragon,0.75,0.0,accion
+Tiempos Violentos,0.95,0.10,accion
+Django,0.9,0.30,accion
+La boda de mi mejor amigo,0.10,0.85,romance
+Mujer bonita,0.0,0.99,romance
+Bastardos sin gloria,0.95,0.15,accion
+Sherlock Holmes,0.9,0.2,accion
+James bond,0.85,0.2,accion
+El último samurai,0.85,0.2,accion
+Orgullo y prejuicio,0.1,0.85,romance
+Cásese quien pueda,0.1,0.9,romance
+Nothing Hill,0.1,0.9,romance
+Media noche en paris,0.4,0.95,romance
