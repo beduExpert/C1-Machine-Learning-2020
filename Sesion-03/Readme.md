@@ -1,5 +1,4 @@
 # Sesión 03: Algoritmos no supervisados.
-__*Notas del Dr. Antonio Arista Jalife*__
 
 ¡Bienvenido a la tercera sesión de Machine Learning! En esta sesión aprenderemos a generar algoritmos no supervisados y como nos pueden ayudar a resolver problemas específicos. 
 
@@ -21,7 +20,7 @@ En resumen:
 - Si tu problema tiene entradas y sabes exactamente cual es la salida que esperas, debes implementar un algoritmo supervisado.
 - Si tu problema tiene entradas, pero no tienes idea de que deseas obtener como resultado de salida, debes implementar un algoritmo no supervisado.
 
-### ¿De que me sirve un algoritmo no supervisado?
+### ¿De qué me sirve un algoritmo no supervisado?
 
 Un algoritmo de ML no supervisado te puede dar información sobre datos parecidos. Por ejemplo:
 
