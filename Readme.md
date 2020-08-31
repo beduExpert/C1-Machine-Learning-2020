@@ -9,9 +9,9 @@ Identificar, seleccionar, construir e implementar algoritmos de Machine Learning
 
  - [Sesión 2: Separación, validación y evaluación para algoritmos de ML ](./Sesion-02)
 
- - [Sesión 3: ](./Sesion-03)
+ - [Sesión 3: Algoritmos no supervisados ](./Sesion-03)
 
- - [Sesión 4: ](./Sesion-04)
+ - [Sesión 4: Problemas de regresión ](./Sesion-04)
 
  - [Sesión 5: ](./Sesion-05)
 
