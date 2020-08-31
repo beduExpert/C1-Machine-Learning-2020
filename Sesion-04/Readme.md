@@ -1,5 +1,7 @@
 # Sesión 04: Problemas de regresión 
 
+#### Objetivo: Construir algoritmos que permitan predecir comportamientos tanto en series de tiempo como con características por medio de regresores lineales y polinomiales.  
+
 ¡Bienvenidos a la Sesión 04! En esa sesión platicaremos acerca de las predicciones por medio de regresión y lo abordaremos como un entrenamiento supervisado. Para ello, lo primero será definir que es la regresión. 
 
 ## Regresión Lineal.
