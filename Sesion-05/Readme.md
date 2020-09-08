@@ -1,5 +1,4 @@
-# Sesión 05: Random Forests.
-*__ Notas del Dr. Antonio Arista Jalife__*
+# Sesión 05: Árboles de decisión  
 
 ¡Bienvenido a la sesión 05 del curso de Machine Learning para Bedu Tech! En esta sesión nos dedicaremos a hablar acerca de Random forests: El primer -y mas sencillo- clasificador de Machine Learning. Cuando buscas en internet acerca de random forests a veces la información es poco clara, pero no te preocupes, aquí nos enfocaremos en volver este tema complejo en uno bastante sencillo. 
 
