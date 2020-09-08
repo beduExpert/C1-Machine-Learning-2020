@@ -13,7 +13,7 @@ Identificar, seleccionar, construir e implementar algoritmos de Machine Learning
 
  - [Sesión 4: Problemas de regresión ](./Sesion-04)
 
- - [Sesión 5: ](./Sesion-05)
+ - [Sesión 5: Árboles de decisión ](./Sesion-05)
 
  - [Sesión 6: ](./Sesion-06)
 
