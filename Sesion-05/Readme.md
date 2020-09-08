@@ -1,5 +1,8 @@
 # Sesión 05: Árboles de decisión  
 
+
+#### Objetivo: Construir algoritmos que permitan separar datos por medio de clasificadores de árboles de decisión y random forests.  
+
 ¡Bienvenido a la sesión 05 del curso de Machine Learning para Bedu Tech! En esta sesión nos dedicaremos a hablar acerca de Random forests: El primer -y mas sencillo- clasificador de Machine Learning. Cuando buscas en internet acerca de random forests a veces la información es poco clara, pero no te preocupes, aquí nos enfocaremos en volver este tema complejo en uno bastante sencillo. 
 
 Para entender acerca de random forests, primero tenemos que entender acerca de como funciona un árbol de decisiones. Para entender el bosque, primero nos enfocaremos en entender un árbol.
