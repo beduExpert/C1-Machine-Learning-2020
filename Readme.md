@@ -15,7 +15,7 @@ Identificar, seleccionar, construir e implementar algoritmos de Machine Learning
 
  - [Sesión 5: Árboles de decisión ](./Sesion-05)
 
- - [Sesión 6: ](./Sesion-06)
+ - [Sesión 6: Clasificación y Redes Neuronales Artificiales ](./Sesion-06)
 
  - [Sesión 7: ](./Sesion-07)
 
