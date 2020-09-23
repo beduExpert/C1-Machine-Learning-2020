@@ -1,5 +1,4 @@
 # Sesión 07: Arena de clasificadores
-*__ Notas del Dr. Antonio Arista Jalife__*
 
 ¡Bienvenido a la sesión 07 del curso de Machine Learning para Bedu Tech! En esta sesión hablaremos acerca de un tema importante y esencial en todos los trabajos que tienen que ver con Machine Learning, esto es: Crear una arena de clasificadores. 
 
