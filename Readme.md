@@ -17,6 +17,6 @@ Identificar, seleccionar, construir e implementar algoritmos de Machine Learning
 
  - [Sesión 6: Clasificación y Redes Neuronales Artificiales ](./Sesion-06)
 
- - [Sesión 7: ](./Sesion-07)
+ - [Sesión 7: Arena de Clasificadores ](./Sesion-07)
 
  - [Sesión 8: ](./Sesion-08)
