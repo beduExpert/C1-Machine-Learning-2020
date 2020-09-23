@@ -1,5 +1,7 @@
 # Sesión 06: Redes Neuronales Artificiales
 
+#### Objetivo: Construir múltiples clasificadores para diferentes problemas, hacerlos competir y seleccionar el mejor dependiendo del problema a enfrentarse.  
+
 ¡Bienvenido a la sesión 06 del curso de Machine Learning para Bedu Tech! En esta sesión hablaremos acerca de uno de los temas más utilizados y de mayor relevancia en Machine Learning: Las redes neuronales artificiales. 
 
 En sesiones anteriores hemos creado algoritmos de clusterización, algoritmos predictivos con un regresor lineal, y algoritmos de clasificación y predicción con Random Forests. Pero enfoquemonos un poco en el regresor lineal: Para recordar, vimos que un regresor lineal puede construir funciones con múltiples entradas, para darte una salida.
