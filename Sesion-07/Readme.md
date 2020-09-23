@@ -1,5 +1,7 @@
 # Sesión 07: Arena de clasificadores
 
+#### Objetivo: Construir múltiples clasificadores para diferentes problemas, hacerlos competir y seleccionar el mejor dependiendo del problema a enfrentarse.  
+
 ¡Bienvenido a la sesión 07 del curso de Machine Learning para Bedu Tech! En esta sesión hablaremos acerca de un tema importante y esencial en todos los trabajos que tienen que ver con Machine Learning, esto es: Crear una arena de clasificadores. 
 
 Lo primero que necesitaremos es tener muy fresca la sesión 02, ya que la estaremos utilizando un montón. Si eres como yo que tengo memoria volátil, puedes consultar las funciones que hemos creado en la sesión 02 en cada uno de los retos y ejemplos de esta sesión.
