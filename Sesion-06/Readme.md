@@ -1,6 +1,6 @@
 # Sesión 06: Redes Neuronales Artificiales
 
-#### Objetivo: Construir múltiples clasificadores para diferentes problemas, hacerlos competir y seleccionar el mejor dependiendo del problema a enfrentarse.  
+#### Objetivo: Construir una red neuronal artificial y entender los procedimientos del algoritmo de descenso en gradiente para predicción y clasificación supervisada.  
 
 ¡Bienvenido a la sesión 06 del curso de Machine Learning para Bedu Tech! En esta sesión hablaremos acerca de uno de los temas más utilizados y de mayor relevancia en Machine Learning: Las redes neuronales artificiales. 
 
