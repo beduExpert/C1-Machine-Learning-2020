@@ -1,9 +1,0 @@
-## Reto:
-
-### Objetivos
-
-#### Requisitos
-
-#### Desarrollo
-
-
