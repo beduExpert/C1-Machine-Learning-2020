@@ -19,4 +19,4 @@ Identificar, seleccionar, construir e implementar algoritmos de Machine Learning
 
  - [Sesión 7: Arena de Clasificadores ](./Sesion-07)
 
- - [Sesión 8: ](./Sesion-08)
+ - [Sesión 8: Fundamentos de procesamiento de imágenes ](./Sesion-08)
