@@ -1,11 +1,12 @@
-# Sesión 08: Introducción a Procesamiento de Imágenes.
-***Notas del Dr. Antonio Arista Jalife***
+# Sesión 08: Fundamentos de procesamiento de imágenes  
+
+#### Objetivo: Entender cómo operan las imágenes en los sistemas, y las operaciones simples en las imágenes pueden llevar a generar descriptores robustos y complejos para la tarea de clasificación con Machine Learning. 
 
 ¡Bienvenido a la última sesión del curso de Machine Learning para Bedu Tech! En esta sesión tocaremos un tema que encadena este primer módulo de machine learning con el siguiente. En esta sesión trabajaremos con imágenes digitales y su procesamiento. 
 
 La razón de que abordemos este tema es que muchas aplicaciones de Machine Learning trabajan sorpresivamente bien con imágenes digitales, y además, hoy en día todos los teléfonos pueden capturarlas, por lo que embeber un sistema de Machine Learning en un teléfono es algo 100% realizable.
 
-## ¿Que tienen que ver las imágenes digitales con ML?
+## ¿Qué tienen que ver las imágenes digitales con ML?
 
 Para entender como se conecta Machine learning y el procesamiento de imágenes, tenemos que entender una sutil separación, pero que es importante: La *estructuración* de datos. 
 
