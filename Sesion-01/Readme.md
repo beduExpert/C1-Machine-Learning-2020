@@ -1,17 +1,17 @@
 # Sesión 01: Introducción a Machine Learning
 
-#### Objetivo: Identificar los conceptos básicos relacionados con el diseño de Machine Learning y el impacto que ha tenido en varias industrias.       
+#### Objetivo: Construir las bases de Machine Learning (estructura, funcionamiento, algoritmos en Python 3).    
 
-¡Bienvenido a tu curso de Machine Learning (ML) con Python! Dado que esta es tu primera sesión, quisiera comentarte cómo será el método de trabajo a partir de hoy:
+¡Bienvenido a tu curso de Machine Learning (ML) con Python! Dado que esta es tu primera sesión, quisiera comentarte como será el método de trabajo a partir de hoy:
 
 1. Dedicaremos una hora y 40 minutos (1:40) a la clase para dar conceptos teóricos, colocar ejemplos y algunos retos sencillos.
 2. Dedicaremos una hora para desarrollar los proyectos de la clase. Puede que tengas un proyecto en mente o todavía no, sin embargo el día de hoy nos dedicaremos a preparar un proyecto. 
 
 Cabe destacar que Machine Learning **no es una disciplina única**: A diferencia de un curso de programación estándar donde puedes desarrollar un proyecto desde cero y en cada sesión lo mejoras, en este curso cada uno de los temas de las sesiones irá encaminado a enseñarte una herramienta diferente. 
 
-Puede que para tu proyecto necesites una -o varias- de las herramientas que te mostraremos. Sin embargo, debes de conocerlas todas y aprender en donde una herramienta funciona mejor que otra. 
+Puede que para tu proyecto necesites una -o varias- de las herramientas que te mostramos. Sin embargo, debes de conocerlas todas y aprender en donde una herramienta funciona mejor que otra. 
 
-¡Bienvenido nuevamente y comencemos!
+¡Bienvenido nuevamente, y comencemos!
 
 ## Exactamente... ¿Qué es eso de Machine Learning? 
 
@@ -257,15 +257,15 @@ Y bien, ¿qué es mejor? ¿Un descriptor o un algoritmo? Sorpresivamente es mejo
 
 ###  Problemas con los descriptores.
 
-No siempre los descriptores que elegimos son los mejores para la tarea. Tenemos que ser cuidadosos a la hora de elegirlos porque puede que no sirvan para ello. Por ejemplo, el encontrar objetos por color no siempre es tan simple...
+No siempre los descriptores que elegimos son los mejores para la tarea. Tenemos que ser cuidadosos a la hora de elegirlos porque puede que no sirvan para ello. Por ejemplo: El encontrar objetos por color...
 
 ![Donde esta el panda?](imgassets/Panda.jpg)
 
-Igualmente, hay propiedades que no funcionan de la misma manera en todo el mundo. Por ejemplo, supongamos que tratas de clasificar a personas por su estatura, y dices:
+Igualmente, hay propiedades que no funcionan de la misma manera en todo el mundo. Por ejemplo, supongamos que tratas de clasificar a personas por su estatura, y si dices:
 
-> *los hombres son mas altos que las mujeres*
+> *Asumamos que los hombres son mas altos que las mujeres*
 
-Esta regla puede ser cierta en casi todos los países del mundo, excepto en Holanda, ¡Donde las mujeres suelen ser mas altas que los hombres!
+Esto puede ser cierto en casi todos los países del mundo, excepto en Holanda, ¡Donde las mujeres suelen ser mas altas que los hombres!
 
 ## ¿Por qué programar Machine Learning con Python?
 Python 3 es un lenguaje altamente flexible y es muy sencillo de aprender. Muchos programadores reconocen que Pyhton es el mejor lenguaje para empezar si no tienes experiencia como programador. 
@@ -274,7 +274,7 @@ Tienes tipos de datos diferentes para casi todo, y no tienes que complicarte con
 
 ![Coding Infinite](imgassets/PythonCoding.png)
 
-Aunado a ello, puedes implementar Python3 como lenguaje modular y hay un montón de herramientas que puedes añadir a Python.
+Aunado a ello puedes implementar Python3 como lenguaje modular y hay un montón de herramientas que puedes añadir a Python.
 
 ![Coding Infinite](imgassets/PythonModules.png)
 
