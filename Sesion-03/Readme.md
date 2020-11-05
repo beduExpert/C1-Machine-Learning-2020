@@ -91,7 +91,7 @@ El algoritmo de K-medias solamente clasifica, pero es nuestro deber interpretar 
 3. Usando las funciones del paso 1 y 2, crea una función que los repita para cada uno de los puntos de un dataset.
 4. (Extra): Haz celdas que prueben que todas las funciones operen como esperas.
 
-Una vez que lo consigas, puedes comparar con el resultado del reto 01 [aquí](Reto01/Reto 01.ipynb)
+Una vez que lo consigas, puedes comparar con la solución del reto 01 [aquí](Reto01/Reto 01.ipynb)
 
 ## Entrenamiento de K-means: Obteniendo los centroides
 
@@ -121,7 +121,7 @@ Y luego promediar el accuracy como se muestra en este ejemplo:
 2. Calculen el accuracy: Saca a qué centroides pertenecen los datos de una clase con el código del reto 01, luego calcula la moda de todos los resultados. Todos los resultados que salgan de la moda son considerados errores. 
 TIP: Puedes utilizar [esta función para calcular la moda](Ejemplo02/Ejemplo02.ipynb)
 
-El resultado del reto se encuentra [aquí](Reto02/Reto 02.ipynb)
+La solución del reto se encuentra [aquí](Reto02/Reto 02.ipynb)
 
 ## Sistemas de recomendación por K-means.
 
