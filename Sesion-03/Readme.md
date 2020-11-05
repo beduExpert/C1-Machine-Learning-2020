@@ -6,7 +6,7 @@
 
 Lo primero que necesitamos es conocer un poco de los fundamentos de los algoritmos no supervisados, y una vez teniendo los fundamentos fijos, podemos intentar unir problemas que se nos presentan con estos algoritmos. 
 
-## Fundamentos de algoritmos no supervisados.
+## Fundamentos de algoritmos no supervisados
 
 Para entender qué son los algoritmos **_no supervisados_** primero debemos de partir de su contraparte, los algoritmos **_supervisados_**: Un algoritmo supervisado significa que sabemos exactamente cómo queremos que se comporte nuestro sistema: Sabemos qué entradas le entregamos, y también sabemos qué salidas esperamos que tenga. 
 
@@ -77,7 +77,7 @@ Una vez que el algoritmo termine, todos los datos tendrán una clase o grupo aso
 
 Es importante elegir adecuadamente la cantidad de grupos (K) que necesitas: Si eliges *K = 1*, todos los datos pertenecerán al mismo conjunto y no servirá de nada el algoritmo. Si eliges *K = Número de datos*, todos los datos tendrán su propio centroide y tampoco servirá de nada. 
 
-### Librería de utilidades.
+### Librería de utilidades
 
 El algoritmo de K-medias solamente clasifica, pero es nuestro deber interpretar los resultados. Para ello necesitaremos crear una librería auxiliar que:
 - Compare un dato (una muestra) contra todos los centroides. 
@@ -123,7 +123,7 @@ TIP: Puedes utilizar [esta función para calcular la moda](Ejemplo02/Ejemplo02.i
 
 La solución del reto se encuentra [aquí](Reto02/Reto 02.ipynb)
 
-## Sistemas de recomendación por K-means.
+## Sistemas de recomendación por K-means
 
 Durante esta sesión hemos ido creando varias funciones en una librería de Python (que puedes encontrar como [MLUtilities.py](Ejemplo03/MLUtilities.py)), que incluye calcular la distancia euclidiana, encontrar el centroide mas cercano, clasificar por centroides, separar datos, obtener la moda, y obtener el accuracy del algoritmo de K medias.
 
