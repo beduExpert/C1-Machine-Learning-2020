@@ -109,6 +109,7 @@ Un árbol puede recibir datos del género y del cabello. Otro árbol puede recib
 Una vez que todos los árboles se han entrenado se hace un *concilio de árboles* (sí, al mero estilo del *Señor de los anillos*...) para decidir a qué clase pertenece el dato que le suministras. Cada uno de los árboles vota y la clase más votada es la que define a qué clase pertenece cierto dato.
 
 ![Decidimos que no eres un orco](imgassets/ents.jpg)
+*Decidimos que no eres un orco*
 
 Podemos ver cómo opera un random forest en el [ejemplo 03](Ejemplo03/Ejemplo03.ipynb)
 
