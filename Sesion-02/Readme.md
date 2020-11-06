@@ -81,7 +81,7 @@ El método de creación de particiones es:
 Para ver el código de cómo hacer una partición, sigue este link: [Ejemplo 01](Ejemplo 01/Ejemplo 01.ipynb)
 
 ## Reto 01:
-> ¡Con este código ([Reto 01](Reto 01/Reto 01.ipynb)) utiliza y juega con la función de particionar! Prueba con diferentes combinaciones. Si tienes un dataset para tu proyecto, úsalo para separar los datos en tres grupos. **PROTIP:** Mantén está función entre tus códigos, porque será útil no sólo para este módulo, sino en general cuando hagas Machine Learning.
+> ¡Con este código [Reto 01](Reto 01/Reto 01.ipynb) utiliza y juega con la función de particionar! Prueba con diferentes combinaciones. Si tienes un dataset para tu proyecto, úsalo para separar los datos en tres grupos. **PROTIP:** Mantén está función entre tus códigos, porque será útil no sólo para este módulo, sino en general cuando hagas Machine Learning.
 
 ## Validación cruzada.
 
