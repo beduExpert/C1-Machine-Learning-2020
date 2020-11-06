@@ -78,10 +78,10 @@ El método de creación de particiones es:
 
 ![Particiones con Sci-kit Learn](imgassets/Partitions2.png)
 
-Para ver el código de cómo hacer una partición, sigue este link: [Ejemplo 01](Ejemplo 01/Ejemplo 01.ipynb)
+Para ver el código de cómo hacer una partición, sigue este link: [Ejemplo 01](Sesion-02/Ejemplo-01)
 
 ## Reto 01:
-> ¡Con este código [Reto 01](Reto 01/Reto 01.ipynb) utiliza y juega con la función de particionar! Prueba con diferentes combinaciones. Si tienes un dataset para tu proyecto, úsalo para separar los datos en tres grupos. **PROTIP:** Mantén está función entre tus códigos, porque será útil no sólo para este módulo, sino en general cuando hagas Machine Learning.
+> ¡Con este código [Reto 01](Sesion-02/Reto-01) utiliza y juega con la función de particionar! Prueba con diferentes combinaciones. Si tienes un dataset para tu proyecto, úsalo para separar los datos en tres grupos. **PROTIP:** Mantén está función entre tus códigos, porque será útil no sólo para este módulo, sino en general cuando hagas Machine Learning.
 
 ## Validación cruzada.
 
@@ -120,10 +120,10 @@ Por ejemplo: 3-Fold significa que dividiste tu dataset en 3 partes (A, B, y C)
 
 Promedias los resultados de todas las rondas, y sabes qué tan bueno es tu algoritmo realmente. 
 
-Para verlo en acción, puedes echar un vistazo al [Ejemplo 02](Ejemplo 02/Ejemplo 02.ipynb)
+Para verlo en acción, puedes echar un vistazo al [Ejemplo 02](Sesion-02/Ejemplo-02)
 
 ## Reto 02:
-> ¡Intenta utilizar K-Fold en tu dataset en este [cuaderno!](Reto 02/Reto 02.ipynb) Nota que K-Fold va a requerir que hagas K entrenamientos más adelante. Verifica que los datos estén separados como lo esperas, e intenta con números pequeños (2-fold, o 3-fold)
+> ¡Intenta utilizar K-Fold en tu dataset en este [cuaderno!](Sesion-02/Reto-02) Nota que K-Fold va a requerir que hagas K entrenamientos más adelante. Verifica que los datos estén separados como lo esperas, e intenta con números pequeños (2-fold, o 3-fold)
 
 ## Leave-One-Out Cross Validation
 
@@ -133,7 +133,7 @@ Leave-One-Out Cross Validation es llevar el K-fold al extremo: Utilizas todo tu 
 
 Al final sólo tienes que promediar todos los datos y obtienes qué tan bueno es tu algoritmo. Es bastante difícil de llevar a cabo, pero aquellos datos que tienen un mal desempeño puedes juntarlos y ver por qué no son fácilmente reconocibles. ¿Quizás esos datos tienen algo en común?
 
-Puedes verlo en acción en el [Ejemplo 03](Ejemplo 03/Ejemplo 03.ipynb). Los códigos que tienes de K-Fold sirven para hacer el Leave-One-Out cross validation y la modificación es sumamente simple. 
+Puedes verlo en acción en el [Ejemplo 03](Sesion-02/Ejemplo-03). Los códigos que tienes de K-Fold sirven para hacer el Leave-One-Out cross validation y la modificación es sumamente simple. 
 
 El principal problema de Leave One Out Cross Validation (LOOCV) es que si tienes 10,000 muestras, tendrás que entrenar 10,000 veces para obtener un resultado concluyente. Esto no es un problema si tu entrenamiento es rápido, pero si el entrenamiento dura 10 segundos, con 10,000 muestras... ¡haz cuentas!
 
@@ -143,7 +143,7 @@ $10,000\ muestras \times 10\ segundos = 100,000s = 27.777\ hrs$
 
 
 ## Reto 03:
-> Haz que tu dataset se separe con Leave-One-Out Cross validation en este [cuaderno!](Reto 03/Reto 03.ipynb) Puedes modificar la prueba para que tenga más de un dato, si tienes 10,000 datos...
+> Haz que tu dataset se separe con Leave-One-Out Cross validation en este [cuaderno!](Sesion-02/Reto-03) Puedes modificar la prueba para que tenga más de un dato, si tienes 10,000 datos...
 
 ## Matriz de confusión: Qué tan listo es tu algoritmo.
 
@@ -165,7 +165,7 @@ El caso más sencillo es con la clasificación binaria. Las columnas representan
 
 4. El número de **falsos negativos (FN):** La cantidad de veces que tu algoritmo de ML dijo que un dato era negativo y realmente era positivo
 
-Para poner un ejemplo simple de cómo opera esto, puedes revisar éste [Ejemplo](Ejemplo 04/Ejemplo 04.ipynb)
+Para poner un ejemplo simple de cómo opera esto, puedes revisar éste [Ejemplo](Sesion-02/Ejemplo-04)
 
 Esta matriz de confusión funciona para múltiples clases: la diagonal son los valores donde tu algoritmo acertó, y la matriz de confusión siempre será una matriz cuadrada. Si hay un valor inusualmente alto en los otros campos, quizá debas revisar si algo sucede que hace que las clases se confundan.
 
@@ -195,4 +195,4 @@ Como podrás haber imaginado, esto no funciona para una matriz multiclase, por l
 $Accuracy=\frac{\sum{Diagonal}}{Numero\ de\ muestras}$
 
 ## Reto 04:
-> Utiliza el [siguiente código](Reto 04/Reto 04.ipynb) y genera una matriz de confusión. Con ello, calcula la precisión, sensibilidad y especificidad. Te recomiendo que mantengas estos códigos en un archivo de Python para que puedas importarlos después, ya que a partir de la siguiente sesión utilizaremos mucho estas métricas y la separación de clases.
+> Utiliza el [siguiente código](Sesion-02/Reto-04) y genera una matriz de confusión. Con ello, calcula la precisión, sensibilidad y especificidad. Te recomiendo que mantengas estos códigos en un archivo de Python para que puedas importarlos después, ya que a partir de la siguiente sesión utilizaremos mucho estas métricas y la separación de clases.
