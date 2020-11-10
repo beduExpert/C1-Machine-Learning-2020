@@ -2,7 +2,7 @@
 
 #### Objetivo: Construir las bases de Machine Learning (estructura, funcionamiento, algoritmos en Python 3).    
 
-¡Bienvenido a tu curso de Machine Learning (ML) con Python! Dado que esta es tu primera sesión, quisiera comentarte como será el método de trabajo a partir de hoy:
+¡Bienvenido a tu curso de Machine Learning (ML) con Python! Dado que esta es tu primera sesión, quisiera comentarte cómo será el método de trabajo a partir de hoy:
 
 1. Dedicaremos una hora y 40 minutos (1:40) a la clase para dar conceptos teóricos, colocar ejemplos y algunos retos sencillos.
 2. Dedicaremos una hora para desarrollar los proyectos de la clase. Puede que tengas un proyecto en mente o todavía no, sin embargo el día de hoy nos dedicaremos a preparar un proyecto. 
