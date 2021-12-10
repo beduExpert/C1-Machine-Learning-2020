@@ -195,4 +195,4 @@ Como podrás haber imaginado, esto no funciona para una matriz multiclase, por l
 $Accuracy=\frac{\sum{Diagonal}}{Numero\ de\ muestras}$
 
 ## Reto 04:
-> Utiliza el [siguiente código](./Sesion-02/Reto-04) y genera una matriz de confusión. Con ello, calcula la precisión, sensibilidad y especificidad. Te recomiendo que mantengas estos códigos en un archivo de Python para que puedas importarlos después, ya que a partir de la siguiente sesión utilizaremos mucho estas métricas y la separación de clases.
+> Utiliza el [siguiente código](https://github.com/beduExpert/C1-Machine-Learning-2020/tree/master/Sesion-02/Reto-04) y genera una matriz de confusión. Con ello, calcula la precisión, sensibilidad y especificidad. Te recomiendo que mantengas estos códigos en un archivo de Python para que puedas importarlos después, ya que a partir de la siguiente sesión utilizaremos mucho estas métricas y la separación de clases.
