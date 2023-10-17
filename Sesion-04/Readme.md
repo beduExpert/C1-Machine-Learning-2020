@@ -95,27 +95,22 @@ Sé que han sido muchas matemáticas. Por ende, es importante que dejes que esto
 
 Para empezar a tratar la predicción, vamos a utilizar un ejemplo de una empresa de bienes raíces que busca saber cuánto cuesta una casa. Su objetivo es obtener el valor promedio de las casas ocupadas (en miles de USD) y para ello ha recopilado los siguientes datos:
 
-- **CRIM:** Tasa de crimen per-capita 
-- **ZN:** Proporción de tierras para uso residenciales
-- **INDUS:** Proporción de acres de negocios por pueblo
-- **CHAS:** 1 si la propiedad colinda con el rio Charles, 0 si no
-- **NOX:** Concentracón de ácido nítrico. (parte por 10 millones)
-- **RM:** Cantidad promedio de habitaciones por vivienda
-- **AGE:** Proporción de unidades construidas antes de 1940 con dueño
-- **DIS:** Distancias a 5 centros de empleo de Boston
-- **RAD:** Índice de accesibilidad a vías rápidas
-- **TAX:** Impuestos por cada 10,000 USD de costo
-- **PTRATIO:** Radio maestro-pupilo por pueblo
-- **B:** 1000(Bk — 0.63)², donde Bk es la proporcion de personas descendientes de afroamericanos
-- **LSTAT :** Porcentaje de personas de estratos bajos de la población
+- **MedInc:** Mediana de ingreso en la cuadra
+- **HouseAge:** Mediana de edad de las casas en la cuadra
+- **AveRooms:** Promedio de cuartos por número de habitantes en la casa
+- **AveBedrms:** Promedio de habitaciones por número de habitantes de la casa
+- **Population:** Población total en la cuadra
+- **AveOccup:** Promedio de habitantes en la casa
+- **Latitude:** Latitud de la cuadra
+- **Longitude:** Longitud de la cuadra
 
 Y lo que desea obtener la empresa es la estimación de la variable: 
 
-- **MEDV:** Valor promedio de casas ocupadas (en miles).
+- **MedHouseVal:** Costo promedio de casas  (en miles).
 
 Recordemos que el regresor lineal va a predecir precios y para ello va a recibir los parámetros que le digas que reciba. Igualmente la predicción que necesites será la que especifiques, por lo que vamos a cablear el regresor de la siguiente manera: 
 
-![regressor housing](imgassets/regressorhousing.png)
+![regressor housing](imgassets/regressorhousing2.png)
 
 Para ello, vamos a realizar el entrenamiento del regresor con el siguiente [ejemplo.](Ejemplo01/Ejemplo01.ipynb)
 
